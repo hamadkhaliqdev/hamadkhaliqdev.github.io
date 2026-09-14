@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hamad's Website</title>
+
+    <style>
+        body {
+    font-family: Arial;
+    text-align: center;
+    background-color: #f2f4f8;
+    padding-top: 100px;
+}
+
+        h1 {
+    color: darkblue;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px #aaa;      
+}
+
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+      button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;    
+}
+    button:hover {
+    transform: scale(1.05);
+}  
+ button:hover {
+    background-color: blue;
+} 
+  nav {
+    background-color: darkblue;
+    padding: 18px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: lightblue;
+}
+  section {
+    padding: 60px 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+} 
+ h2 {
+    color: darkblue;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-shadow: 1px 1px 3px #aaa;
+}     
+  .skill {
+    background-color: lightblue;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+    max-width: 300px;
+    transition: 0.3s;
+}
+.skill:hover {
+    transform: translateY(-5px) scale(1.03);
+    background-color: #87ceeb;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.2);
+}
+   .contact-info {
+    font-size: 18px;
+    font-weight: bold;
+}
+  .contact-info a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}    
+ .subtitle {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+ }
+   .intro {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 25px auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+   .skill {
+    background-color: #BFEFFF;
+    padding: 12px;
+    margin: 10px auto;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    font-weight: bold;
+}   
+  .skill:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+ .about-title {
+    display: inline-block;
+    background-color: #BFEFFF;
+    color: #333333;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 12px 0 2px 0;
+}   
+   section {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}   
+   </style>
+</head>
+
+<body>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+<h1 id="home">Hi, I'm Hamad 👋</h1>
+  <p id="message">A Beginner Web Developer & Technology Enthusiast</p>
+ <p class="subtitle">Welcome to my personal portfolio website.</p> 
+  <p class="intro">
+    I am learning web development and building my skills step by step.
+</p>
+ <section id="about">
+    <h2>About Me</h2>
+
+<div class="about-title">
+    Who I Am
+</div>  
+
+    <p>
+        My name is Hamad, and I am passionate about computers, technology, and web development.
+        I am currently learning HTML, CSS, and C++ while building small projects to improve my
+        practical skills.
+    </p>
+
+    <p>
+        I enjoy learning new things, experimenting with code, and turning simple ideas into
+        working projects. My goal is to continue developing my skills and eventually create
+        useful and creative websites and applications.
+    </p>
+</section> 
+  <section id="skills">
+    <h2>My Skills</h2>
+   <p>Here are some of the skills I am learning:</p> 
+    <p class="skill">HTML</p>
+    <p class="skill">CSS</p>
+    <p class="skill">C++</p>
+    <p class="skill">Basic Web Development</p>
+</section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+  <p class="contact-info">Email: <a href="mailto:hamad@example.com">hamad@example.com</a></p>
+    <p>Thank you for visiting my website!</p>
+</section>
+
+<button onclick="document.getElementById('message').textContent='Welcome! Thanks for visiting my website!'">Click Me</button> 
+
+</body>
+</html>
